@@ -13,39 +13,39 @@ frek_slog_br = 0
 frek_meta_br = 0
 
 # vowels and consonant groups
-k = '[b|B|c|C|ć|Ć|č|Č|d|D|đ|Đ|f|F|g|G|h|H|j|J|k|K|l|L|m|M|n|N|p|P|r|R|s|S|š|Š|t|T|v|V|z|Z|ž|Ž|ǯ|ń|ļ]'
-k1 = '[p|P|t|T|k|K|f|F|h|H|s|S|š|Š|c|C|č|Č|ć|Ć|b|B|d|D|g|G|z|Z|ž|Ž|đ|Đ|ǯ]'
-s1 = '[m|M|n|N|v|V|ń]'
-s2 = '[l|L|r|R|ļ]'
-s2_s = 'l|L|r|R|ļ'
-j = '[j|J]'
-s = '[m|M|n|N|v|V|l|L|r|R|ń|ļ]'
-s_s = 'm|M|n|N|v|V|l|L|r|R|ń|ļ'
-v = '[a|e|i|o|u|A|E|I|O|U|ṛ]'
+k = r'[b|B|c|C|ć|Ć|č|Č|d|D|đ|Đ|f|F|g|G|h|H|j|J|k|K|l|L|m|M|n|N|p|P|r|R|s|S|š|Š|t|T|v|V|z|Z|ž|Ž|ǯ|ń|ļ]'
+k1 = r'[p|P|t|T|k|K|f|F|h|H|s|S|š|Š|c|C|č|Č|ć|Ć|b|B|d|D|g|G|z|Z|ž|Ž|đ|Đ|ǯ]'
+s1 = r'[m|M|n|N|v|V|ń]'
+s2 = r'[l|L|r|R|ļ]'
+s2_s = r'l|L|r|R|ļ'
+j = r'[j|J]'
+s = r'[m|M|n|N|v|V|l|L|r|R|ń|ļ]'
+s_s = r'm|M|n|N|v|V|l|L|r|R|ń|ļ'
+v = r'[a|e|i|o|u|A|E|I|O|U|ṛ]'
 
 # consonants by manner of articulation
-ok = '[p|b|t|d|k|g]'
-fr = '[f|s|z|š|ž|h]'
-af = '[c|č|ǯ|ć|đ|]'
-nz = '[m|n|ń|v]'
-lv = '[l|ļ|r]'
+ok = r'[p|b|t|d|k|g]'
+fr = r'[f|s|z|š|ž|h]'
+af = r'[c|č|ǯ|ć|đ|]'
+nz = r'[m|n|ń|v]'
+lv = r'[l|ļ|r]'
 
 # consonants by place of articulation
-zb = '[t|d]'
-us = '[p|b]'
-jd = '[k|g|h]'
-uzv = '[m|v]'
+zb = r'[t|d]'
+us = r'[p|b]'
+jd = r'[k|g|h]'
+uzv = r'[m|v]'
 
 
 # Unicode list of characters - Croatian alphabet -thanks to Nikola Lj.
-slova_mala = 'ļṛńǯabc\u010d\u0107d\u0111efghijklmnopqrs\u0161tuvwxyz\u017e\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea'\
-             '\xeb\xec\xed\xee\xef\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff'
-slova_velika = 'ABC\u010c\u0106D\u0110EFGHIJKLMNOPQRS\u0160TUVWXYZ\u017d\xc0\xc1\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca'\
-               '\xcb\xcc\xcd\xce\xcf\xd0\xd1\xd2\xd3\xd4\xd5\xd6\xd8\xd9\xda\xdb\xdc\xdd\xde\xdf'
-slova_znamenke = 'ABC\u010c\u0106D\u0110EFGHIJKLMNOPQRS\u0160TUVWXYZ\u017d\xc0\xc1\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca'\
-                 '\xcb\xcc\xcd\xce\xcf\xd0\xd1\xd2\xd3\xd4\xd5\xd6\xd8\xd9\xda\xdb\xdc\xdd\xde\xdfabc\u010d\u0107d\u0111'\
-                 'efghijklmnopqrs\u0161tuvwxyz\u017e\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xeb\xec\xed\xee\xef\xf0'\
-                 '\xf1\xf2\xf3\xf4\xf5\xf6\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff0123456789'
+slova_mala = r'ļṛńǯabc\u010d\u0107d\u0111efghijklmnopqrs\u0161tuvwxyz\u017e\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea'\
+              '\xeb\xec\xed\xee\xef\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff'
+slova_velika = r'ABC\u010c\u0106D\u0110EFGHIJKLMNOPQRS\u0160TUVWXYZ\u017d\xc0\xc1\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca'\
+                '\xcb\xcc\xcd\xce\xcf\xd0\xd1\xd2\xd3\xd4\xd5\xd6\xd8\xd9\xda\xdb\xdc\xdd\xde\xdf'
+slova_znamenke = r'ABC\u010c\u0106D\u0110EFGHIJKLMNOPQRS\u0160TUVWXYZ\u017d\xc0\xc1\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca'\
+                  '\xcb\xcc\xcd\xce\xcf\xd0\xd1\xd2\xd3\xd4\xd5\xd6\xd8\xd9\xda\xdb\xdc\xdd\xde\xdfabc\u010d\u0107d\u0111'\
+                  'efghijklmnopqrs\u0161tuvwxyz\u017e\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xeb\xec\xed\xee\xef\xf0'\
+                  '\xf1\xf2\xf3\xf4\xf5\xf6\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff0123456789'
 slova = slova_velika + slova_mala
 
 
@@ -64,7 +64,7 @@ def f_pr01(r):
     in_granice = 0
     # if the regex found an occurence then add location (index) of syllable border to list tmp and add location and rule
     # designation to meta list tpp
-    if len(slog) != 0:
+    if len(slog):
         for j in slog:
             in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
             for y in in_granice:
@@ -81,12 +81,12 @@ def f_pr02(r):
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
     in_granice = 0
-    if len(slog) != 0:
+    if len(slog):
         for j in slog:
             if slog.count(j) > 1:
                 brk = 0
                 for w in r:
-                    if (r.find(j, brk)+1) not in tmp and ((r.find(j, brk)+1) != 0):
+                    if (r.find(j, brk)+1) not in tmp and ((r.find(j, brk)+1)):
                         tmp.append(r.find(j, brk)+1)
                         tpp.append(str(r.find(j, brk)+1)+'-pr02a')
                     brk += 1
@@ -107,7 +107,7 @@ def f_pr03(r):
     slog = regex.findall(v+k1+k+'+'+v, r, overlapped=True)
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
-    if len(slog) != 0:
+    if len(slog):
         for j in slog:
             if (j[1] in zb and j[2] in us):
                 in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
@@ -154,7 +154,7 @@ def f_pr04(r):
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
     in_granice = 0
-    if len(slog)! = 0:
+    if len(slog):
         for j in slog:
             in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
             for y in in_granice:
@@ -171,7 +171,7 @@ def f_pr4_1(r):
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
     in_granice = 0
-    if len(slog)! = 0:
+    if len(slog):
         for j in slog:
             in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
             for y in in_granice:
@@ -188,7 +188,7 @@ def f_pr5_1(r):
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
     in_granice = 0
-    if len(slog)! = 0:
+    if len(slog):
         for j in slog:
             in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
             for y in in_granice:
@@ -205,7 +205,7 @@ def f_pr5_2(r):
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
     in_granice = 0
-    if len(slog)! = 0:
+    if len(slog):
         for j in slog:
             in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
             for y in in_granice:
@@ -222,7 +222,7 @@ def f_pr5_3(r):
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
     in_granice = 0
-    if len(slog)! = 0:
+    if len(slog):
         for j in slog:
             in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
             for y in in_granice:
@@ -239,7 +239,7 @@ def f_pr5_4(r):
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
     in_granice = 0
-    if len(slog)! = 0:
+    if len(slog):
         for j in slog:
             if (j[1] == 'm') and (j[2] == 'v'):
                 in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
@@ -263,7 +263,7 @@ def f_pr06(r):
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
     in_granice = 0
-    if len(slog)! = 0:
+    if len(slog):
         for j in slog:
             in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
             for y in in_granice:
@@ -280,7 +280,7 @@ def f_pr_naj(r):
     tmp = d_raz[r][0]
     tpp = d_raz[r][1]
     in_granice = 0
-    if len(slog)! = 0:
+    if len(slog):
         for j in slog:
             in_granice = [match.start() for match in re.finditer(re.escape(j), r)]
             for y in in_granice:
@@ -303,18 +303,18 @@ def f_ucitaj(rijeci):
     # cleaning the input and writing two charaters consonants (lj, nj, dž) as one character
     rijeci = rijeci.lower()
     rijeci = rijeci.strip()
-    rijeci = re.sub('\n', '', rijeci)
-    rijeci = re.sub('–', '', rijeci)
-    rijeci = re.sub('\r', '', rijeci)
-    rijeci = re.sub(',', '', rijeci)
-    rijeci = re.sub('\.', '', rijeci)
-    rijeci = re.sub('!', '', rijeci)
-    rijeci = re.sub('nj', 'ń', rijeci)
-    rijeci = re.sub('lj', 'ļ', rijeci)
-    rijeci = re.sub('dž', 'ǯ', rijeci)
+    rijeci = re.sub(r'\n', '', rijeci)
+    rijeci = re.sub(r'–', '', rijeci)
+    rijeci = re.sub(r'\r', '', rijeci)
+    rijeci = re.sub(r',', '', rijeci)
+    rijeci = re.sub(r'\.', '', rijeci)
+    rijeci = re.sub(r'!', '', rijeci)
+    rijeci = re.sub(r'nj', 'ń', rijeci)
+    rijeci = re.sub(r'lj', 'ļ', rijeci)
+    rijeci = re.sub(r'dž', 'ǯ', rijeci)
 
     # in Croatian, consonat r functions as a syllable when placed between two consonants
-    rijeci = re.sub('(?< = '+k+')(r)(? = '+k+')', 'ṛ', rijeci)
+    rijeci = re.sub(r'(?<= '+k+')(r)(?= '+k+')', 'ṛ', rijeci)
 
     # creating a list of word from text -thanks Nikola Lj.
     raz = re.findall(r'['+slova+']+(?:-['+slova+']+)*|[0-9]+(?:[,.][0-9]+)*', rijeci)
@@ -346,7 +346,7 @@ def f_ucitaj(rijeci):
 # Write function - writes results to a tab delimited txt file
 def f_ispis(r):
     rez_is = ''
-    if len(d_raz[r][0])! = 0:
+    if len(d_raz[r][0]):
         tmp_i = r
         tmp = 0
         for j in d_raz[r][0]:
@@ -378,10 +378,10 @@ def f_frek(rez_slog, fn):
                 frek_l.append(j)
 
         else:
-            frek_l.append(re.sub('\n', '', i))
+            frek_l.append(re.sub(r'\n', '', i))
 
     for i in frek_l:
-        if len(i)! = 0:
+        if len(i):
             frek_d[i] = frek_d.get(i, 0)+1
             if '0' not in i and '1' not in i:
                 frek_slog[i] = frek_slog.get(i, 0)+1
@@ -397,8 +397,8 @@ def f_frek(rez_slog, fn):
 
 # Replaces all consonants with 1 and all vowels with 0 in the results (don't know why :/)
 def f_stat():
-    k_p = '[bBcCćĆčČdDđĐfFgGhHjJkKlLmMnNpPrRsSšŠtTvVzZžŽǯńļ]'
-    v_p = '[aeiouAEIOUṛ]'
+    k_p = r'[bBcCćĆčČdDđĐfFgGhHjJkKlLmMnNpPrRsSšŠtTvVzZžŽǯńļ]'
+    v_p = r'[aeiouAEIOUṛ]'
 
     for i in rezultat:
         s_rez = re.sub(k_p, '1', i)
@@ -447,7 +447,7 @@ def f_trigrami(s_brzalica):
     # ngram.write('\n\nFrekvencijski popis trigrama\n')
     l_tri = []
     for i in l_trigram:
-        if len(i[0]) = =3 and ' ' not in i[0]:
+        if len(i[0]) == 3 and ' ' not in i[0]:
             l_tri.append(i)
 
     i_frek.append(l_tri)
@@ -499,21 +499,21 @@ for rijeci in open(korpus, 'r').readlines():
             if '0' in j[0] or '1' in j[0]:
                 ns += j[1]
 
-            if 'ṛ' in j[0] and len(j[0]) = =1:
+            if 'ṛ' in j[0] and len(j[0]) == 1:
                 slog_r += j[1]
 
         if p == 0:
             continue
         else:
             pomocni = (str(1-nk/float(p)))
-        pomocni = re.sub('\.', ',', str(pomocni))
+        pomocni = re.sub(r'\.', ',', str(pomocni))
 
         d_ubt.write(pomocni+'\t')
 
-        if ns != 0:
+        if ns:
             ss = (str((nss+slog_r)/float(ns)))
 
-            ss = re.sub('\.', ',', str(ss))
+            ss = re.sub(r'\.', ',', str(ss))
             d_ubt.write(ss+'\t')
 
         br += 1
@@ -537,12 +537,12 @@ for i in frek_meta_l:
     frek_meta_br += i[1]
 
 for i in frek_slog_l:
-    stat.write(re.sub('\.', ',', i[0]+'\t'+str(i[1]/float(frek_slog_br))+'\n'))
+    stat.write(re.sub(r'\.', ',', i[0]+'\t'+str(i[1]/float(frek_slog_br))+'\n'))
 
 for i in frek_meta_l:
-    rr = re.sub('0', 'v', i[0])
-    rr = re.sub('1', 'k', rr)
-    frek_meta_d.write(re.sub('\.', ',', rr+'\t'+str(i[1]/float(frek_meta_br))+'\n'))
+    rr = re.sub(r'0', 'v', i[0])
+    rr = re.sub(r'1', 'k', rr)
+    frek_meta_d.write(re.sub(r'\.', ',', rr+'\t'+str(i[1]/float(frek_meta_br))+'\n'))
 
 ispis.close()
 stat.close()
